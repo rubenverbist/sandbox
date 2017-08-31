@@ -1,0 +1,4 @@
+FROM java:8
+
+ADD sandbox.jar sandbox.jar
+ENTRYPOINT exec java sandbox.jar
